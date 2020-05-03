@@ -2,10 +2,10 @@
   "name": "hackassembler",
   "version": "1.0.0",
   "description": "",
-  "main": "runFromCli.js",
+  "main": "src/runFromCli.js",
   "scripts": {
-    "start": "node runFromCli.js",
-    "start:test-runner": "node testRunner.js",
+    "start": "node src/runFromCli.js",
+    "start:test-runner": "node src/testRunner.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",

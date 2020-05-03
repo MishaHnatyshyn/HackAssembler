@@ -6,10 +6,10 @@ This program will convert *.asm files with HACK assembly code to *.hack files wi
 node >= 14.0.0
 
 ### Usage for single file via command line
-run `node runFromCli.js <filename>.asm`
+run `node runFromCli.js <filename>.asm` or `npm start <filename>.asm`
 
 ### Usage for multiple files
 Put your .asm files in `asmFiles/` directory
 
-run `node testRunner.js`
+run `node src/testRunner.js` or `npm run start:test-runner`
 

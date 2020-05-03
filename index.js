@@ -1,1 +1,1 @@
-export * as default from './compiler.js';
+export * as default from './src/compiler.js';
